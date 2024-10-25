@@ -1,20 +1,20 @@
 # IRCProj
 
-IRCProj is a basic implementation of an Internet Relay Chat (IRC) client and server written in [language used, e.g., Python, Java]. This project demonstrates foundational networking concepts and allows for basic real-time messaging functionality across a server and multiple clients.
+IRCProj is a basic implementation of an Internet Relay Chat (IRC) client and server written in Python. This project demonstrates foundational networking concepts and allows for basic real-time messaging functionality across a server and multiple clients.
 
 ## Features
 
 - **Server**: Listens for incoming client connections and manages client messaging and broadcasting.
 - **Client**: Allows users to connect to the server, join channels, and send messages.
 - **Multi-user chat**: Support for multiple clients connected to a single server.
-- **Commands**: Supports basic IRC commands like `/join`, `/msg`, `/quit`.
+- **Commands**: Supports basic IRC commands
 
 ## Getting Started
 
 ### Prerequisites
 
-- [Language/Platform dependency] e.g., Python 3.x
-- [Other dependencies] e.g., Sockets library or specific modules.
+- Python 3
+- Sockets library or specific modules.
 
 ### Installation
 
@@ -43,12 +43,6 @@ IRCProj is a basic implementation of an Internet Relay Chat (IRC) client and ser
     python client.py
     ```
     Once the client connects, you can begin interacting with the IRC server.
-
-### Commands
-
-- **/join <channel>**: Join a specified chat channel.
-- **/msg <username> <message>**: Send a private message to another user.
-- **/quit**: Disconnect from the server.
 
 ## Project Structure
 

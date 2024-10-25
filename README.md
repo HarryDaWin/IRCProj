@@ -54,12 +54,5 @@ IRCProj is a basic implementation of an Internet Relay Chat (IRC) client and ser
 
 - `server.py`: Contains the server code for managing clients and channels.
 - `client.py`: Contains the client code for interacting with the server.
-- [Additional files, if any].
 
-## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request for any changes.
-
-## License
-
-This project is licensed under the [License Name] - see the [LICENSE](LICENSE) file for details.
